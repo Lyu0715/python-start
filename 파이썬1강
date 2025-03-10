@@ -1,0 +1,702 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Lyu0715/python-start/blob/main/%ED%8C%8C%EC%9D%B4%EC%8D%AC1%EA%B0%95\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "aurc2Fukydc2"
+      },
+      "source": [
+        "# (연습) 프로그래밍 맛보기"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "MgBCG_zE0A9f"
+      },
+      "source": [
+        "**주의 사항**\n",
+        "\n",
+        "* 기존에 작성된 코드 셀과 텍스트 셀은 수정하지 않는다.\n",
+        "* 필요한 경우 코드 셀 또는 텍스트 셀을 추가해서 사용한다.\n",
+        "* 실습 파일을 제출할 때 구글 드라이브의 링크를 이용하여 누구나 공유할 수 있도록 설정한다."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "9TAmxJUyydc8"
+      },
+      "source": [
+        "**문제 1**"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "e_4pc0D7ydc8"
+      },
+      "source": [
+        "아래 명령문들을 실행해서 오류가 발생하는 경우 오류의 종류와 원인을 설명하고 수정하라.\n",
+        "오류가 발생하지 않으면 실행 결과를 설명한다."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "4J5bSWaYydc9"
+      },
+      "source": [
+        "(1)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "FVZCa0S5ydc9"
+      },
+      "outputs": [],
+      "source": [
+        "print(\"Hello World)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "t-VMcZJJydc_"
+      },
+      "outputs": [],
+      "source": [
+        "# 코드를 작성한다\n",
+        "print(\"hello world\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "TFqSwarpydc_"
+      },
+      "source": [
+        "(2)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "JgIvq_h6yddA"
+      },
+      "outputs": [],
+      "source": [
+        "print(21 8)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "iMW9I3bhyddA"
+      },
+      "outputs": [],
+      "source": [
+        "# 코드를 작성한다.\n",
+        "print(21,8)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "NlsE8ONqyddA"
+      },
+      "source": [
+        "(3)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "ZOJ3WfgiyddB"
+      },
+      "outputs": [],
+      "source": [
+        "print(2++2)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "EQCVutHtyddB",
+        "outputId": "3a8ad1cd-cea6-4c7f-a45e-92a29a5f720d"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "4\n"
+          ]
+        }
+      ],
+      "source": [
+        "# 코드를 작성한다.\n",
+        "print(2+2)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "uHXooLo3yddC"
+      },
+      "source": [
+        "**문제 2**"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "z0ag7w9UyddC"
+      },
+      "source": [
+        "변수 할당 명령문과 관련하여 주의해야할 점들을 다룬다. 아래 명령문들을 실행해서 오류가 발생하는 경우 오류의 종류와 원인을 설명하고 수정한다."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Pfhz-bKZyddC"
+      },
+      "source": [
+        "(1)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "gmPjZxzSyddC"
+      },
+      "outputs": [],
+      "source": [
+        "x = 2;"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "bSuk3-b7yddC"
+      },
+      "outputs": [],
+      "source": [
+        "# 코드를 작성한다.\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "oeWmau4ryddC"
+      },
+      "source": [
+        "(2)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "TbJBcaofyddC"
+      },
+      "outputs": [],
+      "source": [
+        "z = x y"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "HlyHIFw3yddC"
+      },
+      "outputs": [],
+      "source": [
+        "# 코드를 작성한다.\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "aDmrjOJUyddD"
+      },
+      "source": [
+        "(3)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "l6BVvPHEyddD"
+      },
+      "outputs": [],
+      "source": [
+        "even = 3\n",
+        "odd = 17\n",
+        "print(even + oddd)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "gyaExjtQyddD"
+      },
+      "outputs": [],
+      "source": [
+        "# 코드를 작성한다.\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "xnmkUFXwyddD"
+      },
+      "source": [
+        "(4)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "l6wDV9oIyddD"
+      },
+      "outputs": [],
+      "source": [
+        "x = 3\n",
+        "zero = 0\n",
+        "\n",
+        "print(x/zero)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "S9wU50jRyddD"
+      },
+      "outputs": [],
+      "source": [
+        "# 코드를 작성한다.\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "q62PORRDyddD"
+      },
+      "source": [
+        "**문제 3**"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "c4HHSPO2yddD"
+      },
+      "source": [
+        "언급된 값을 표현하는 수식을 표현한 다음에 실행하라."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Rlq1uowOyddD"
+      },
+      "source": [
+        "(1) 정수 13에서 정수 19 빼기"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "dBabP6-4yddE"
+      },
+      "source": [
+        "힌트: 뺄셈 연산자를 활용한다."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "grFwlUN9yddE"
+      },
+      "outputs": [],
+      "source": [
+        "# 코드를 작성한다.\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "v8UIY0gbyddE"
+      },
+      "source": [
+        "(2) 정수 81을 정수 3으로 나누기"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ZSj-iRchyddE"
+      },
+      "source": [
+        "힌트: 나눗셈 연산자를 활용한다."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "T-KbC6OyyddE"
+      },
+      "outputs": [],
+      "source": [
+        "# 코드를 작성한다.\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "qcwxM5LOyddE"
+      },
+      "source": [
+        "(3) 정수 100을 정수 7로 나눈 나머지"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "EW-aJJl-yddE"
+      },
+      "source": [
+        "힌트: 나머지 연산자를 활용한다."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "br8txnDayddE"
+      },
+      "outputs": [],
+      "source": [
+        "# 코드를 작성한다.\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "cF7dPiqbyddE"
+      },
+      "source": [
+        "(4) 정수 7.2의 세제곱"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "JsN3q-q1yddF"
+      },
+      "source": [
+        "힌트: 거듭제곱 연산자를 활용한다."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "bOURaGHfyddF"
+      },
+      "outputs": [],
+      "source": [
+        "# 코드를 작성한다.\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "mLyM7J9_yddF"
+      },
+      "source": [
+        "**문제 4**"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "KFQZR1WEyddF"
+      },
+      "source": [
+        "먼저 아래와 같이 두 개의 변수를 선언한다."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "pbgh3eBfyddF"
+      },
+      "outputs": [],
+      "source": [
+        "width = 17\n",
+        "height = 12.0"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "zNiHmQAvyddF"
+      },
+      "source": [
+        "언급된 값을 표현하는 수식을 두 변수를 이용하여 표현한 다음에 실행하여라."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "NeeOI3ILyddF"
+      },
+      "source": [
+        "(1) width를 2로 나눗 몫"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "VOJlfgbeyddF"
+      },
+      "outputs": [],
+      "source": [
+        "# 코드를 작성한다.\n",
+        "print(width//2)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ofdPvoqGyddG"
+      },
+      "source": [
+        "(2) width 나누기 2"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "gv0aOmInyddG"
+      },
+      "outputs": [],
+      "source": [
+        "# 코드를 작성한다.\n",
+        "print(width/2)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "9YURAt-vyddG"
+      },
+      "source": [
+        "(3) width 나누기 2.0"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5pTskGlKyddG",
+        "outputId": "20ced468-3a2d-4552-f1ce-42a8132881c2"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "8.5\n"
+          ]
+        }
+      ],
+      "source": [
+        "# 코드를 작성한다.\n",
+        "width=17\n",
+        "print(width/2.0)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "w9kQcSUNyddG"
+      },
+      "source": [
+        "(4) height 나누기 3"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "_l4EpsBZyddG"
+      },
+      "outputs": [],
+      "source": [
+        "# 코드를 작성한다.\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "OtvhqceayddG"
+      },
+      "source": [
+        "(5) 2 곱하기 5에 1 더하기"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "FgKlVhJzyddG"
+      },
+      "outputs": [],
+      "source": [
+        "# 코드를 작성한다.\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "7s-ZL5JnyddG"
+      },
+      "source": [
+        "(6) 2 곱하기 5에 1.0 더하기"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "uToL1kEkyddG"
+      },
+      "outputs": [],
+      "source": [
+        "# 코드를 작성한다.\n",
+        "print(2*5+1.0)\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "MyYJYRhPyddH"
+      },
+      "source": [
+        "**문제 5**"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "kgMCqTbJyddH"
+      },
+      "source": [
+        "오전 6시 52분에 집을 떠나서, 가볍게 (km당 8분 15초 소요) 1km를 뛰고,\n",
+        "이어서 좀 빠르게 (km당 7분 12초 소요) 3km를 뛴 후, 다시 가볍게 1km를 마저 달려 집으로 돌아오면\n",
+        "집에 도착하는 시간을 계산하여 아래처럼 출력하는 코드를 작성하라.\n",
+        "\n",
+        "    집에 도착 시간: 7 시 30 분 6 초\n",
+        "\n",
+        "힌트: 정수 나눗셈의 몫과 나머지 연산자 활용"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Zkwk9SHWyddH",
+        "outputId": "877ee53d-7cbb-49fb-8cbe-ebf7b579d7b7"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "7 시 23 분 57 초\n"
+          ]
+        }
+      ],
+      "source": [
+        "from os import fstatvfs\n",
+        "# 코드를 작성한다.\n",
+        "출발시각 = 6*3600 + 52*60\n",
+        "\n",
+        "slow = 8*60 +15\n",
+        "fast = 7*60 +12\n",
+        "total = slow*3 + fast\n",
+        "\n",
+        "도착시간 = 출발시각 +total\n",
+        "\n",
+        "print( 도착시간//3600, \"시\" , 도착시간%3600//60 , \"분\" , 도착시간%60 ,\"초\")"
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3 (ipykernel)",
+      "language": "python",
+      "name": "python3"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "ipython",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.12.7"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
