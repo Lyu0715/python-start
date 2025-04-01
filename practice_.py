@@ -5,6 +5,12 @@ one2nine = '123456789'
 숫자입력 = int(input())
 
 
-for char in one2nine:
-    A = 숫자입력 * char
-    print(f"숫자입력 * {char} 은 {A} 입니다.")
+for 인트수 in one2nine:
+    정수들 = int(인트수)
+    if 정수들 % 숫자입력 != 0:
+        continue
+    
+    print(f"{정수들}의 곱셈")
+    for 곱들 in one2nine:
+        인트곱 = int(곱들)
+        print(f"\n{정수들} * {인트곱} = {정수들*인트곱} ")
