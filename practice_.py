@@ -8,3 +8,11 @@ one2nine = '123456789'
 for char in one2nine:
     A = 숫자입력 * char
     print(f"숫자입력 * {char} 은 {A} 입니다.")
+
+
+def 변수(left , right):
+    더하기 = left + right
+    return 더하기
+
+변수(1,2)
+print(변수(1,2))
