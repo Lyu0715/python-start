@@ -5,9 +5,9 @@
 # 숫자입력 = int(input())
 
 
-for char in one2nine:
-    A = 숫자입력 * char
-    print(f"숫자입력 * {char} 은 {A} 입니다.")
+# for char in one2nine:
+#     A = 숫자입력 * char
+#     print(f"숫자입력 * {char} 은 {A} 입니다.")
 
 
 def 변수(left , right):
