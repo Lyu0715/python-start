@@ -13,7 +13,3 @@
 def 변수(left , right):
     더하기 = left + right
     return 더하기
-
-변수1 = 변수(1,2) 
-
-print(변수1)
