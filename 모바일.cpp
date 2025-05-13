@@ -21,7 +21,7 @@ void loop( )
 {
   int gasVal = analogRead(gasPin); 	// 가스 센서 출력을 읽어 들여 gasVal에 저장
   
-  if (gasVal > 120){ 			// gasVal > 120이면
+  if (gasVal > 120){ 			    // gasVal > 120이면
     digitalWrite(gLedPin, LOW); 		// gLedPin(5번 핀)에 LOW 값을 출력
     digitalWrite(yLedPin, LOW); 		// yLedPin(6번 핀)에 LOW 값을 출력
     digitalWrite(rLedPin, HIGH);		// rLedPin(7번 핀)에 HIGH 값을 출력
